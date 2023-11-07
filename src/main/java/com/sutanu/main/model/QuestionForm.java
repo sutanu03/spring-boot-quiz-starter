@@ -1,4 +1,4 @@
-package com.devrezaur.main.model;
+package com.sutanu.main.model;
 import java.util.List;
 import org.springframework.stereotype.Component;
 

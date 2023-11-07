@@ -1,4 +1,4 @@
-package com.devrezaur.main.model;
+package com.sutanu.main.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

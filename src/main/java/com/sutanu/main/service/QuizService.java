@@ -1,4 +1,4 @@
-package com.devrezaur.main.service;
+package com.sutanu.main.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,11 +7,11 @@ import java.util.Random;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.devrezaur.main.model.Question;
-import com.devrezaur.main.model.QuestionForm;
-import com.devrezaur.main.model.Result;
-import com.devrezaur.main.repository.QuestionRepo;
-import com.devrezaur.main.repository.ResultRepo;
+import com.sutanu.main.model.Question;
+import com.sutanu.main.model.QuestionForm;
+import com.sutanu.main.model.Result;
+import com.sutanu.main.repository.QuestionRepo;
+import com.sutanu.main.repository.ResultRepo;
 
 @Service
 public class QuizService {
