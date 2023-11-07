@@ -31,16 +31,16 @@ public class QuizService {
 	@Autowired
 	ResultRepo rRepo;
 	
-	public QuestionForm getQuestions() {
-		List<Question> allQues = qRepo.findAll();
-		List<Question> qList = new ArrayList<>();
-		
-		Random random = new Random();
-		
-		for(int i=0; i<5; i++)
-		{
-			int rand = random.nextInt(allQues.size());
-		}
-	}
+//	public QuestionForm getQuestions() {
+//		List<Question> allQues = qRepo.findAll();
+//		List<Question> qList = new ArrayList<>();
+//		
+//		Random random = new Random();
+//		
+//		for(int i=0; i<5; i++)
+//		{
+//			int rand = random.nextInt(allQues.size());
+//		}
+//	}
 	
 }
